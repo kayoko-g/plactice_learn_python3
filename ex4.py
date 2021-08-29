@@ -17,7 +17,7 @@ average_passengers_per_car = passengers / cars_driven
 
 print('今日は', cars ,'台の車が利用可能。')
 print('今日は',drivers,'人しかドライバーがいない。')
-print('だから',cars_not_driven,'人の乗客を運べる。')
+print('だから',cars_not_driven,'台の車にはドライバーがいない。')
 print('今日は',carpool_capacity,'人の乗客を運べる。')
 print('今日は',passengers,'人の乗客がいる。')
 print('一台の車に',average_passengers_per_car,'人を乗せる必要がある。')
