@@ -21,3 +21,7 @@ print('だから',cars_not_driven,'台の車にはドライバーがいない。
 print('今日は',carpool_capacity,'人の乗客を運べる。')
 print('今日は',passengers,'人の乗客がいる。')
 print('一台の車に',average_passengers_per_car,'人を乗せる必要がある。')
+
+#8行目のaverage_passengers_per_car = car_pool_capacity / passenger
+#において、car_pool_capacityが未定義だったため今回のエラーが出た。
+#1)浮動小数点は誤差の発生を前提とした数値データである
