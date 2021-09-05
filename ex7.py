@@ -34,5 +34,5 @@ end12 = 'r'
 #最後のend=''に注目しよう。これを取り除くとどうなるだろうか？
 #さっきまで作っていた変数をprint内で表示
 print(end1 + end2 + end3 + end4 + end5 + end6, end='　')
-#上記童謡に変数をprint 内で表示
+#上記同様に変数をprint 内で表示。
 print(end7 + end8 + end9 + end10 + end11 + end12)

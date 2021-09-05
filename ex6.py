@@ -1,14 +1,16 @@
 #変数types_of_peopleに10を代入
 types_of_people = 10
 #xにf'世の中には{types_of_people}種類の人間がいる。'を代入
-x = f'世の中には{types_of_people}種類の人間がいる。'　#3個目
+#3個目
+x = f'世の中には{types_of_people}種類の人間がいる。'
 
 #binaryに'バイナリ'を代入
 binary = 'バイナリ'
 #do_notに'そうでない'を代入
 do_not = 'そうでない'
 #yにf'{binary}を知っている人と、{do_not}人だ。'を代入
-y = f'{binary}を知っている人と、{do_not}人だ。'　#4個目
+#4個目
+y = f'{binary}を知っている人と、{do_not}人だ。' 
 
 #printにて、上記変数xとyを表示
 print(x)
@@ -26,6 +28,7 @@ joke_evaluation = 'このジョークは面白かったかな?!{}'
 
 #joke_evaluation.format(hilarious)をprintにて表示
 print(joke_evaluation.format(hilarious))
+#print(print(joke_evaluation + hilarious)
 
 
 w = 'これは左側のテキストで…'
