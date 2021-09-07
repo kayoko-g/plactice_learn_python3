@@ -38,23 +38,25 @@ print(f'猫{persian_cat2}')
 x1 = 'aaa\\aaaa'
 x2 = "aaa\'aaaa"
 x3 = 'aaa\"aaaa'
+#?
 x4 = 'あああ\aああ'
-x5 = 'あああ\bああ'
-x6 = 'あああ\fああ'
-x7 = 'あああ\nああ'
-x8 = '\N{HIRAGANA LETTER A}'
-x9 = 'あああ\rああ'
-x10 = 'あああ\tああ'
-x11 = '\u0005'
-x12 = '\U11111111'
-x13 = 'あああ\vああ'
-x14 = 'あああ\oooああ'
-x15 = 'あああ\xhhああ'
 
-#print(x1)
-#print(x2)
-#print(x3)
-#print(x4)
+#x5 = 'あああ\bああ'
+#x6 = 'あああ\fああ'
+#x7 = 'あああ\nああ'
+#x8 = '\N{HIRAGANA LETTER A}'
+#x9 = 'あああ\rああ'
+#x10 = 'あああ\tああ'
+#x11 = '\u0005'
+#x12 = '\U11111111'
+#x13 = 'あああ\vああ'
+#x14 = 'あああ\oooああ'
+#x15 = 'あああ\xhhああ'
+
+print(x1)
+print(x2)
+print(x3)
+print(x4)
 #print(x5)
 #print(x6)
 #print(x7)
