@@ -19,3 +19,18 @@ print(persian_cat)
 print(backslash_cat)
 print(fat_cat)
 
+#演習2:"""は'''でも代用可能。ただし、文字列の中で''が使いたいのか、""が使いたいのかによって、考える必要がある。
+fat_cat2 = '''
+"猫"用のリスト：
+\t* キャットフード
+\t* 魚
+\t* マタタビ\n\t* 猫草
+'''
+
+print(fat_cat2)
+
+#演習3
+persian_cat2 = 'これは行を\n分割。'
+print('猫:',persian_cat2)
+print('猫{}'.format('の家'))
+print(f'猫{persian_cat2}')
