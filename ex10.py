@@ -42,7 +42,7 @@ x4 = 'あああ\aああ'
 x5 = 'あああ\bああ'
 x6 = 'あああ\fああ'
 x7 = 'あああ\nああ'
-x8 = 'あああ\N{name}ああ'
+#x8 = 'あああ\N{name}ああ'
 x9 = 'あああ\rああ'
 x10 = 'あああ\tああ'
 x11 = '\u0005'
@@ -58,7 +58,7 @@ print(x4)
 print(x5)
 print(x6)
 print(x7)
-print(x8)
+#print(x8)
 print(x9)
 print(x10)
 print(x11)
