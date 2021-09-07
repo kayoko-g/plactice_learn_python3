@@ -42,7 +42,7 @@ x4 = 'あああ\aああ'
 x5 = 'あああ\bああ'
 x6 = 'あああ\fああ'
 x7 = 'あああ\nああ'
-#x8 = 'あああ\N{name}ああ'
+x8 = '\N{HIRAGANA LETTER A}'
 x9 = 'あああ\rああ'
 x10 = 'あああ\tああ'
 x11 = '\u0005'
@@ -51,18 +51,18 @@ x13 = 'あああ\vああ'
 x14 = 'あああ\oooああ'
 x15 = 'あああ\xhhああ'
 
-print(x1)
-print(x2)
-print(x3)
-print(x4)
-print(x5)
-print(x6)
-print(x7)
+#print(x1)
+#print(x2)
+#print(x3)
+#print(x4)
+#print(x5)
+#print(x6)
+#print(x7)
 #print(x8)
-print(x9)
-print(x10)
-print(x11)
-print(x12)
-print(x13)
-print(x14)
-print(x15)
+#print(x9)
+#print(x10)
+#print(x11)
+#print(x12)
+#print(x13)
+#print(x14)
+#print(x15)
