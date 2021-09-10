@@ -3,7 +3,7 @@ from sys import argv
 #2つの引数にargv を代入
 script, user_name = argv
 #prompt に> を代入
-prompt = '> '
+prompt = '>>>'
 
 #変数{user_name} {scriput}をフォーマットしprintを使って表示。
 print(f'やぁ、{user_name}。私は{script}スクリプトです。')
