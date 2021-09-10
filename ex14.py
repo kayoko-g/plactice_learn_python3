@@ -1,12 +1,12 @@
 from sys import argv
 
-#2つの引数にargv を代入
-script, user_name = argv
+#3つの引数にargv を代入
+script, aisatsu, user_name = argv
 #prompt に> を代入
 prompt = '>>>'
 
-#変数{user_name} {scriput}をフォーマットしprintを使って表示。
-print(f'やぁ、{user_name}。私は{script}スクリプトです。')
+#変数{user_name} {aisatsu} {scriput}をフォーマットしprintを使って表示。
+print(f'やぁ、{aisatsu}、{user_name}。私は{script}スクリプトです。')
 #printにて質問を表示
 print('私は君にいくつかの質問をしたいと思います。')
 #変数{user_name}をフォーマットし、print にて表示
