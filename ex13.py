@@ -28,5 +28,11 @@ print('grapeの個数は:', banana)
 #printにて、'third変数の値は:'を表示させ、続けて引数のthird　を表示させる。
 print('grapeの個数は:', grape)
 
-eat = input('どれが食べたい?')
+# prompt に > を代入
+prompt = '> '
+#print で「何が食べたい?」を表示。
+print('何が食べたい?')
+#inputにて> 以降の答えをeatに代入
+eat = input(prompt)
+#print にて表示
 print(f'君は{eat}が食べたいのだね。')
