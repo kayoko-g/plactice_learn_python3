@@ -1,9 +1,13 @@
 from sys import argv
 
+#scriptとfilenameをargvに代入
 script, filename = argv
 
+#printにて「これから{filename}を消去する」を表示{filename}はフォーマット化されている。
 print(f'これから{filename}を消去する。')
+#printにて「消去したくないならCtrl-C(^C)を入力し」を表示。
 print('消去したくないならCTRL-C (^C)を入力し、')
+#printにて「消去してもよいなら、Enterキーを入力する」を表示。
 print('消去してもよいならEnterキーを入力する。')
 
 input('?')
