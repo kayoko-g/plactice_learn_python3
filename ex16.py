@@ -15,7 +15,7 @@ input('?')
 
 #printにて「ではファイルを開こう」を表示させる。
 print('ではファイルを開こう...')
-#targetにopen関数を代入。ここではファイルを書き込みにて開かせている。
+#targetにopen関数を代入。ここではファイルを書き込みにて開かせている。書き込み用で開く必要があるため、W が必要。wなしの場合読み取り専用になる。
 target = open(filename,'w',encoding='utf-8')
 
 #printにて「ファイルを切り捨てる。グッバイ！」を表示させる。
@@ -59,4 +59,5 @@ target.write(f'{line1}\n{line2}\n{line3}\n')
 print('最後にファイルを閉じる。')
 #ファイルを閉じる
 target.close()
+
 
