@@ -50,6 +50,11 @@ target.write(line3)
 #改行する
 target.write('\n')
 
+print('一度に記述させる。')
+
+#line1～line3を一度に記述させる。
+target.write(f'{line1}\n{line2}\n{line3}\n')
+
 #「最後にファイルを閉じる」を表示させる
 print('最後にファイルを閉じる。')
 #ファイルを閉じる
