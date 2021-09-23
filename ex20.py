@@ -1,4 +1,4 @@
-from sys import _current_frames, argv
+from sys import argv
 
 script, input_file = argv
 
@@ -12,7 +12,7 @@ def print_a_line(line_count, f):
     print(line_count, f.readline())
 
 
-current_file = open(input_file)
+current_file = open(input_file, encording = 'utf-8')
 
 print('まずファイル全体を出力する:')
 
@@ -22,7 +22,7 @@ print('最初に巻き戻して、')
 
 rewind(current_file)
 
-print('先頭の3桁を出力する:')
+print('先頭の3行を出力する:')
 
 current_line = 1
 print_a_line(current_line, current_file)
