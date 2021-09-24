@@ -8,7 +8,7 @@ script, input_file = argv
 #①print_all関数は、引数ｆで受け取ったファイルを.read()部分で読みだしている。
 def print_all(f):
     print(f.read())
-#②rewind関数は、fで受け取ったファイルを
+#②rewind関数は、fで受け取ったファイルの先頭にカーソルを移動
 def rewind(f):
     f.seek(0)
 #③
@@ -34,4 +34,8 @@ print_a_line(current_line, current_file)
 current_line = current_line + 1
 print_a_line(current_line, current_file)
 current_line = current_line + 1
+print_a_line(current_line, current_file)
+
+print_a_line(current_line, current_file)
+print_a_line(current_line, current_file)
 print_a_line(current_line, current_file)
